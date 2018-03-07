@@ -15,8 +15,8 @@ listado1 longitud
 /* Solo puede estar definida una de las tres constantes VECTOR_ , luego solo uno
 de los tres defines siguientes puede estar descomentado:*/
 //#define VECTOR_LOCAL  //descomentar para que los vectores sean variables locales (si se supera el tamaño de pila se generará segmentation fault)
-#define VECTOR_GLOBAL   //descomentar para que los vectores sean variables globales (su longitud no estará limitada por el tamaño de la pila del programa)
-// #define VECTOR_DYNAMIC    //para que los vectores sean variables dinámicas (memoria reutilizable durante la ejecución)
+//#define VECTOR_GLOBAL   //descomentar para que los vectores sean variables globales (su longitud no estará limitada por el tamaño de la pila del programa)
+ #define VECTOR_DYNAMIC    //para que los vectores sean variables dinámicas (memoria reutilizable durante la ejecución)
 
 #ifdef VECTOR_GLOBAL
 #define MAX 33554432
