@@ -1,0 +1,34 @@
+Id. usuario del trabajo: E2estudiante14
+Id. del trabajo: 63996.atcgrid
+Nombre del trabajo especificando usuario: SumaVectores_vlocales
+Nodo que ejecuta qsub: atcgrid
+Directorio en el que se ha ejecutado qsub: /home/E2estudiante14/ejercicio4
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+Tiempo (seg.): 0.000373142	 / Tamaño vectores: 65536	/ v1[0]+v2[0]=v3[0](6553.600000+6553.600000=13107.200000) / / v1[65535]+v2[65535]=v3[65535](13107.100000+0.100000=13107.200000) /
+Tiempo (seg.): 0.000799968	 / Tamaño vectores: 131072	/ v1[0]+v2[0]=v3[0](13107.200000+13107.200000=26214.400000) / / v1[131071]+v2[131071]=v3[131071](26214.300000+0.100000=26214.400000) /
+Tiempo (seg.): 0.001692884	 / Tamaño vectores: 262144	/ v1[0]+v2[0]=v3[0](26214.400000+26214.400000=52428.800000) / / v1[262143]+v2[262143]=v3[262143](52428.700000+0.100000=52428.800000) /
