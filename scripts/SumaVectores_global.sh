@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 #Se asigna al trabajo el nombre SumaVectoresC_vlocales
-#PBS -N SumaVectores_vlocales
+#PBS -N SumaVectores_vglobal
 #Se asigna al trabajo la cola ac
 #PBS -q ac
 #Se imprime información del trabajo usando variables de entorno de PBS.

@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-#Se asigna al trabajo el nombre SumaVectoresC_vlocales
+#Se asigna al trabajo el nombre SumaVectoresC_vdinamicos
 #PBS -N SumaVectores_vlocales
 #Se asigna al trabajo la cola ac
 #PBS -q ac
