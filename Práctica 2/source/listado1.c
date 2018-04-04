@@ -19,7 +19,7 @@ de los tres defines siguientes puede estar descomentado:*/
  // #define VECTOR_DYNAMIC    //para que los vectores sean variables dinámicas (memoria reutilizable durante la ejecución)
 
 #ifdef VECTOR_GLOBAL
-#define MAX 10000000
+#define MAX 67108865
 double v1[MAX], v2[MAX], v3[MAX];
 #endif
 
@@ -73,14 +73,14 @@ int main(int argc, char **argv){
   ncgt= (double)(cgt2.tv_sec - cgt1.tv_sec) + (double) ((cgt2.tv_nsec - cgt1.tv_nsec) / (1.e+9));
 
   //Imprimir resultado de la suma y el tiempo de ejecución
-  #ifdef PRINTF_ALL
-  printf("Tiempo(seg): %11.9f\t / tamaño vectores: %u\n", ncgt, N);
-  for(i= 0; i<N; i++)
-    printf("/V1[%d] + V2[%d] = V3[%d] (%8.6f + %8.6f = %8.6f) /\n"), ncgt, N, v1[0], v2[0], v3[0], N-1, N-1, N-1, v1[N-1], v2[N-1], v3[N-1]);
-  #else
+  // #ifdef PRINTF_ALL
+  // printf("Tiempo(seg): %11.9f\t / tamaño vectores: %u\n", ncgt, N);
+  // for(i= 0; i<N; i++)
+  //   printf("/V1[%d] + V2[%d] = V3[%d] (%8.6f + %8.6f = %8.6f) /\n"), ncgt, N, v1[0], v2[0], v3[0], N-1, N-1, N-1, v1[N-1], v2[N-1], v3[N-1]);
+  // #else
   printf("Tiempo (seg.): %11.9f\t / Tamaño vectores: %u\t/ v1[0]+v2[0]=v3[0](%8.6f+%8.6f=%8.6f) / / v1[%d]+v2[%d]=v3[%d](%8.6f+%8.6f=%8.6f) /\n",
   ncgt, N, v1[0], v2[0], v3[0], N-1, N-1, N-1, v1[N-1], v2[N-1], v3[N-1]);
-  #endif
+  // #endif
 
   #ifdef VECTOR_DYNAMIC
   //Liberamos el espacio reservado para los vectores
