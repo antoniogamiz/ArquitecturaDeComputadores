@@ -90,7 +90,7 @@ int main(int argc, char **argv){
   
   double start = omp_get_wtime();
 
-  #pragma omp parallalel
+  #pragma omp parallel
   {
     #pragma omp sections
     {
