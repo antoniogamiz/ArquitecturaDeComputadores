@@ -1,0 +1,55 @@
+Id. usuario del trabajo: E2estudiante14
+Id. del trabajo: 73313.atcgrid
+Nombre del trabajo especificando usuario: atcgrid_secuencial
+Nodo que ejecuta qsub: atcgrid
+Directorio en el que se ha ejecutado qsub: /home/E2estudiante14
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+Tiempo(seg): 0.300683320 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056068778 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300512314 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056288123 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300379872 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056230426 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300417095 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056270123 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300468981 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056210041 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300348103 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056232810 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.302591383 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056309104 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300482899 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056106925 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300462663 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056716681 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300487906 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056964278 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300611079 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056175232 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Tiempo(seg): 0.300386429 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.056883216 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)

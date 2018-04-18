@@ -1,0 +1,67 @@
+Id. usuario del trabajo: E2estudiante14
+Id. del trabajo: 73299.atcgrid
+Nombre del trabajo especificando usuario: atcgrid_OMP_reduction
+Nodo que ejecuta qsub: atcgrid
+Directorio en el que se ha ejecutado qsub: /home/E2estudiante14
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+atcgrid3
+Numero de threads 1
+Tiempo(seg): 0.317558438 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.151198268 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 2
+Tiempo(seg): 0.325408697 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 4.922989368 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 3
+Tiempo(seg): 0.377102613 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.337278366 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 4
+Tiempo(seg): 0.324930191 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.366290212 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 5
+Tiempo(seg): 0.326769382 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.389683723 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 6
+Tiempo(seg): 0.326900035 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.399282455 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 7
+Tiempo(seg): 0.329156756 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.374939322 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 8
+Tiempo(seg): 0.329566985 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.467106223 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 9
+Tiempo(seg): 0.327027917 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.405734658 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 10
+Tiempo(seg): 0.396429777 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.542049408 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 11
+Tiempo(seg): 0.339053482 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.465567470 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 12
+Tiempo(seg): 0.329022408 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 1.448075056 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)

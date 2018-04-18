@@ -1,0 +1,67 @@
+Id. usuario del trabajo: E2estudiante14
+Id. del trabajo: 73297.atcgrid
+Nombre del trabajo especificando usuario: atcgrid_OMP_a
+Nodo que ejecuta qsub: atcgrid
+Directorio en el que se ha ejecutado qsub: /home/E2estudiante14
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+Numero de threads 1
+Tiempo(seg): 0.611230552 	 N=15000 	 (v2[0]=112492500 v2[14999]=337477500)
+Tiempo(seg): 2.152925730 	 N=30000 	 (v2[0]=449985000 v2[29999]=1349955000)
+Numero de threads 2
+Tiempo(seg): 0.355027318 	 N=15000 	 (v2[0]=68886579 v2[14999]=172562341)
+Tiempo(seg): 1.616631627 	 N=30000 	 (v2[0]=306100519 v2[29999]=807235271)
+Numero de threads 3
+Tiempo(seg): 0.322006941 	 N=15000 	 (v2[0]=69803469 v2[14999]=104027125)
+Tiempo(seg): 1.710569739 	 N=30000 	 (v2[0]=171977159 v2[29999]=633929171)
+Numero de threads 4
+Tiempo(seg): 0.272914708 	 N=15000 	 (v2[0]=43046287 v2[14999]=114691759)
+Tiempo(seg): 1.031619549 	 N=30000 	 (v2[0]=116401658 v2[29999]=313413980)
+Numero de threads 5
+Tiempo(seg): 0.238138437 	 N=15000 	 (v2[0]=22630240 v2[14999]=98893748)
+Tiempo(seg): 0.874597847 	 N=30000 	 (v2[0]=68054100 v2[29999]=325523152)
+Numero de threads 6
+Tiempo(seg): 0.222882211 	 N=15000 	 (v2[0]=24903076 v2[14999]=72473989)
+Tiempo(seg): 0.784495056 	 N=30000 	 (v2[0]=123049667 v2[29999]=255183594)
+Numero de threads 7
+Tiempo(seg): 0.219745755 	 N=15000 	 (v2[0]=23146575 v2[14999]=64850303)
+Tiempo(seg): 0.728584647 	 N=30000 	 (v2[0]=77951925 v2[29999]=176532702)
+Numero de threads 8
+Tiempo(seg): 0.202671275 	 N=15000 	 (v2[0]=15175910 v2[14999]=49483884)
+Tiempo(seg): 0.662408888 	 N=30000 	 (v2[0]=71790557 v2[29999]=213093024)
+Numero de threads 9
+Tiempo(seg): 0.196309030 	 N=15000 	 (v2[0]=19415343 v2[14999]=53402501)
+Tiempo(seg): 0.627460480 	 N=30000 	 (v2[0]=52887071 v2[29999]=152901291)
+Numero de threads 10
+Tiempo(seg): 0.184553206 	 N=15000 	 (v2[0]=8137601 v2[14999]=53826043)
+Tiempo(seg): 0.613712072 	 N=30000 	 (v2[0]=71568526 v2[29999]=181791003)
+Numero de threads 11
+Tiempo(seg): 0.242635101 	 N=15000 	 (v2[0]=31292092 v2[14999]=78888723)
+Tiempo(seg): 1.025736213 	 N=30000 	 (v2[0]=82269837 v2[29999]=238692699)
+Numero de threads 12
+Tiempo(seg): 0.259357393 	 N=15000 	 (v2[0]=23509051 v2[14999]=76173890)
+Tiempo(seg): 0.819716334 	 N=30000 	 (v2[0]=97372603 v2[29999]=314604423)

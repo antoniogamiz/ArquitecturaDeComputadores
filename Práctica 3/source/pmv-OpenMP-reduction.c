@@ -1,14 +1,14 @@
 
-//Compilacion: gcc -fopenmp -O2 ./source/pmv-OpenMP-b.c -o ./bin/pmv-OpenMP-b
+//Compilacion: gcc -fopenmp -O2 ./source/pmv-OpenMP-reduction.c -o ./bin/pmv-OpenMP-reduction
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
 
-#define MOSTRAR_MATRIZ 1
-#define MOSTRAR_V 1
-#define MOSTRAR_V2 1
-#define MOSTRAR_PRIMERO_ULTIMO 0
+#define MOSTRAR_MATRIZ 0
+#define MOSTRAR_V 0
+#define MOSTRAR_V2 0
+#define MOSTRAR_PRIMERO_ULTIMO 1
 
 //#define VECTOR_GLOBAL
 #define VECTOR_DYNAMIC 
@@ -92,9 +92,9 @@ int main(int argc, char ** argv)
     #endif
 
     #if MOSTRAR_PRIMERO_ULTIMO
-        printf("Tiempo(seg): %11.9f \t N=%d\n", (float)(end-start), N);
-    #else
         printf("Tiempo(seg): %11.9f \t N=%d \t (v2[0]=%d v2[%d]=%d)\n", (float)(end-start), N, v2[0], N-1, v2[N-1]);
+    #else
+        printf("Tiempo(seg): %11.9f \t N=%d\n", (float)(end-start), N);
     #endif
 
 
