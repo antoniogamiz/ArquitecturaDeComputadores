@@ -39,9 +39,13 @@ int main(int argc, char **argv)
             printf("nthreads-var: %d\n", omp_get_max_threads());
             printf("thread-limit-var: %d\n", omp_get_thread_limit());
             printf("run-sched-var: %d\n", kind);
+            
+            printf("Numero de threads: %d\n", omp_get_num_threads());
+            printf("Numero de procesadores disponibles: %d\n", omp_get_num_procs());
+            printf("En region paralela: %d\n", omp_in_parallel());
         }
     }
-    
+
     omp_sched_t kind;int chunk_size;
     omp_get_schedule(&kind, &chunk_size);
 
@@ -50,5 +54,11 @@ int main(int argc, char **argv)
     printf("nthreads-var: %d\n", omp_get_max_threads());
     printf("thread-limit-var: %d\n", omp_get_thread_limit());
     printf("run-sched-var: %d\n", kind);
+
+    printf("Numero de threads: %d\n", omp_get_num_threads());
+    printf("Numero de procesadores disponibles: %d\n", omp_get_num_procs());
+    printf("En region paralela: %d\n", omp_in_parallel());
+    
+
 
 }
