@@ -1,0 +1,49 @@
+Id. usuario del trabajo: E2estudiante14
+Id. del trabajo: 76315.atcgrid
+Nombre del trabajo especificando usuario: atcgrid_pmtv_omp
+Nodo que ejecuta qsub: atcgrid
+Directorio en el que se ha ejecutado qsub: /home/E2estudiante14/BP3
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+'static' schedule elegido
+Tiempo(seg): 0.032887511 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'dynamic' schedule elegido
+Tiempo(seg): 0.031785198 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'guided' schedule elegido
+Tiempo(seg): 0.031838186 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'static' schedule elegido
+Tiempo(seg): 0.032092128 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'dynamic' schedule elegido
+Tiempo(seg): 0.032198001 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'guided' schedule elegido
+Tiempo(seg): 0.032199677 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'static' schedule elegido
+Tiempo(seg): 0.032040402 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'dynamic' schedule elegido
+Tiempo(seg): 0.032212093 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)
+'guided' schedule elegido
+Tiempo(seg): 0.032156248 	 N=16128 	 (v2[0]=130064256 v2[16127]=32255)

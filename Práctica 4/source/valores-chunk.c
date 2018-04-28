@@ -9,7 +9,7 @@ int main()
     int current_chunk;
 
     omp_get_schedule(&kind, &current_chunk);
-    
+            
     omp_set_schedule(omp_sched_static, current_chunk);
     omp_get_schedule(&kind, &current_chunk);
     printf("Valor de chunk para 'static': %d\n", current_chunk);

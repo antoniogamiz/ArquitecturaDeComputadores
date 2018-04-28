@@ -13,7 +13,7 @@
 int main(int argc, char ** argv)
 {
     if( argc!=3 ) {
-        fprintf(stderr, "Formato: %s <N>\n", argv[0]);
+        fprintf(stderr, "Formato: %s <N> <chunk-value>\n", argv[0]);
         exit(-1);
     }
 
