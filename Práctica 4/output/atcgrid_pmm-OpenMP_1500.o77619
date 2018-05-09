@@ -1,0 +1,43 @@
+Id. usuario del trabajo: E2estudiante14
+Id. del trabajo: 77619.atcgrid
+Nombre del trabajo especificando usuario: atcgrid_pmm-OpenMP_1500
+Nodo que ejecuta qsub: atcgrid
+Directorio en el que se ha ejecutado qsub: /home/E2estudiante14/BP3
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+Tiempo(seg): 10.082369804 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 5.196512699 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 3.613084316 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 2.785546064 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 2.328140020 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 2.014986277 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 1.672304749 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 1.469849348 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 1.289103746 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 1.165941238 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 1.061765671 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
+Tiempo(seg): 1.449461222 	 N=1000 	 (m3[0][0]=500500 m3[999][999]=500500)
