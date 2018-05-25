@@ -146,6 +146,53 @@ main:
 	movl	8(%rsp), %eax
 	cmpl	%ebx, %eax
 	jl	.L13
+	jmp	.L14.L13:
+	leaq	m3(%r13), %r14
+	xorl	%r10d, %r10d
+	xorl	%r15d, %r15d
+	.p2align 4,,10
+	.p2align 3
+.L11:
+	leaq	40000(%r10), %rbp
+	leaq	80000(%r10), %r11
+	leaq	120000(%r10), %r9
+	xorl	%eax, %eax
+	xorl	%r8d, %r8d
+	xorl	%edi, %edi
+	xorl	%esi, %esi
+	xorl	%ecx, %ecx
+	.p2align 4,,10
+	.p2align 3
+.L10:
+	movl	m1(%r13,%rax,4), %edx
+	movl	m2(%r10,%rax,4), %r12d
+	imull	%edx, %r12d
+	addl	%r12d, %ecx
+	movl	m2(%rbp,%rax,4), %r12d
+	imull	%edx, %r12d
+	addl	%r12d, %esi
+	movl	m2(%r11,%rax,4), %r12d
+	imull	%edx, %r12d
+	imull	m2(%r9,%rax,4), %edx
+	addq	$1, %rax
+	addl	%r12d, %edi
+	addl	%edx, %r8d
+	cmpl	%eax, %ebx
+	jg	.L10
+	addl	$4, %r15d
+	movl	%ecx, (%r14)
+	movl	%esi, 4(%r14)
+	movl	%edi, 8(%r14)
+	movl	%r8d, 12(%r14)
+	addq	$160000, %r10
+	addq	$16, %r14
+	cmpl	%ebx, %r15d
+	jl	.L11
+	addl	$1, 8(%rsp)
+	addq	$40000, %r13
+	movl	8(%rsp), %eax
+	cmpl	%ebx, %eax
+	jl	.L13
 	jmp	.L14
 .L3:
 	leaq	16(%rsp), %rsi
